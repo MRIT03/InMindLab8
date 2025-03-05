@@ -1,0 +1,6 @@
+@InMindLab8_HostAddress = http://localhost:5042
+
+GET {{InMindLab8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
