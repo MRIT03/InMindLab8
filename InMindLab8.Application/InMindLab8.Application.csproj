@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.4.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RabbitMQ.Client" Version="7.1.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\InMindLab8.Common\InMindLab8.Common.csproj" />
+      <ProjectReference Include="..\InMindLab8.Domain\InMindLab8.Domain.csproj" />
+      <ProjectReference Include="..\InMindLab8.Persistence\InMindLab8.Persistence.csproj" />
+    </ItemGroup>
+
+
+</Project>
