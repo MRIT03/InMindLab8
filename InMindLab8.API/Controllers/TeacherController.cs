@@ -7,9 +7,11 @@ using InMindLab8.Application.Queries;
 using InMindLab8.Application.ViewModels;
 using InMindLab8.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InMindLab8.API.Controllers
 {
+    [Authorize(Roles = "Teacher")]
     [ApiController]
     [Route("api/[controller]")]
     public class TeacherController : ControllerBase
