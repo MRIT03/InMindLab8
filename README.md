@@ -17,6 +17,8 @@ From the receiving side, I implemented a simple hosted service that makes sure t
 ## Persistence Layer
 
 The following database was created:
+
+
 ![image](https://github.com/user-attachments/assets/69d97034-23ab-4eb0-a484-7b991ca9bfc4)
 
 
